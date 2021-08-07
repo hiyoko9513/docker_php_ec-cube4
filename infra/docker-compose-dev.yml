@@ -1,0 +1,9 @@
+version: '2'
+
+volumes:
+  kinenya_sync-volume:
+    external: true
+services:
+  php:
+    volumes:
+      - kinenya_sync-volume:/var/www/html

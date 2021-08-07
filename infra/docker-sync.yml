@@ -1,0 +1,7 @@
+version: '2'
+
+syncs:
+  kinenya_sync-volume:
+    src: ../${WORK_DIR}
+    sync_strategy: native_osx
+    sync_excludes: [ '.git', '.idea', '.vagrant' ]
